@@ -17,3 +17,27 @@ Each section of the configuration file associated with plotting may contain the 
 * **``pattern``**: array of strings that represent the dygraph associated stroke patterns.  The value can be ``null``.  If the value is ``null``, then line will be solid.  Available dygraph values are:
   * ``DASHED_LINE``
   * ``DOTTED_LINE``
+* **``ygrid``**: boolean indicating whether to display the ygrid in the plot.
+* **``xgrid``**: boolean indicating whether to display the xgrid in the plot.
+
+For the array data, there does not need to be a 1:1 correspondence between the number of entities being graphed and the number of entries in the arrays.  The plots will be rendered in order using the existing values and when there are no futher values to be used, the arrays will be recycled (i.e. the values will be populated by beginning at the front of the array and working backward).
+
+As an example of this in action, let us say we have two devices with the following plotting entries:
+
+```json
+"vaisala": {
+    "color": [
+      "red"
+    ],
+    "strokeWidth": [
+      2
+    ],
+    "pattern": [
+      null,
+      "DASHED_LINE",
+      "DOTTED_LINE"
+    ],
+    "xGrid": true,
+    "yGrid": true
+  }
+```
