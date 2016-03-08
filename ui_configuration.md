@@ -41,3 +41,4 @@ As an example of this in action, let us say we have two devices with the followi
     "yGrid": true
   }
 ```
+In this case, we will plot three lines, all red with a stroke width of 2.  The first line is solid, the second is dashed and the third is dotted.
