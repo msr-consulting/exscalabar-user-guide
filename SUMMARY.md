@@ -6,4 +6,5 @@
 * [Server](server.md)
    * Launch
    * Shutdown
+   * Handling HTTP Request
 
