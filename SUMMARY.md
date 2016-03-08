@@ -5,4 +5,5 @@
    * [Configuration](ui_configuration.md)
 * [Server](server.md)
    * Launch
+   * Shutdown
 
