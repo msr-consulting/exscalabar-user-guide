@@ -1,3 +1,9 @@
-# My Awesome Book
+# EXSCALABAR Software User Guide
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This manual covers the 
+
+* use of the client side software
+* execution of both the client side and sever software
+* tips for debugging both the client and server side software
+* description of hardware
+* how to use the 
