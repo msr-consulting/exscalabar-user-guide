@@ -7,5 +7,5 @@
    * Launch
    * Shutdown
    * Handling HTTP Request
-   * Configuration
+   * [Configuration](server_configuration.md)
 
