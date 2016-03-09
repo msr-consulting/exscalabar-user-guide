@@ -12,15 +12,18 @@ Serial devices are those that are communicating on a serial port, either via RS2
 
 Each serial device contains common parameters for configuring communication on the serial port.  These parameters are:
 
-* ``Port`` = COM2
-* ``Serial Config.baud rate`` = 19200
-* ``Serial Config.data bits`` = 8
-* ``Serial Config.stop bits`` = 10
-* ``Serial Config.parity`` = 0
+* ``Port`` - This is the key for the serial port that the device or device cluster will communicate on.  The value usually is the string *COM* followed by a number.
+* ``Serial Config.baud rate`` - Defines the baud rate for device communication.
+* ``Serial Config.data bits`` - Defines the number of data bits in the communication.
+* ``Serial Config.stop bits`` - Defines the number of stop bits.  This value will be 0 for 0 bits, 10 for 1 bit and 20 for 2 bits.
+* ``Serial Config.parity`` - Defines the parity of the communication
 * ``Serial Config.flow control`` = 0
-* ``Serial Config.endModeforReads`` = 2
-* ``Serial Config.endModeforWrites`` = 2
-* ``Msg Config.sendEndEn`` = TRUE
-* ``Msg Config.suppEnEnRd`` = FALSE
+* ``Serial Config.endModeforReads`` - Integer defining how the end is determined for reading from the port.  These values are:
+  * 0 = 
+  * 1 = 
+  * 2 = 
+* ``Serial Config.endModeforWrites`` Similar to ``endModeforReads``.  Integers are defined in same manner.
+* ``Msg Config.sendEndEn`` - Boolean indicating whether a terminating character is sent with a write to the port.
+* ``Msg Config.suppEnEnRd`` - Boolean indicating whether to supress the end of a read with a termination character (i.e. reads will terminate on timeout or when a specific number of bytes is read from the port).
 * ``Msg Config.termChar`` = 13
 * ``Msg Config.EnTermChar`` = TRUE
