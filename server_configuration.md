@@ -25,5 +25,8 @@ Each serial device contains common parameters for configuring communication on t
 * ``Serial Config.endModeforWrites`` Similar to ``endModeforReads``.  Integers are defined in same manner.
 * ``Msg Config.sendEndEn`` - Boolean indicating whether a terminating character is sent with a write to the port.
 * ``Msg Config.suppEnEnRd`` - Boolean indicating whether to supress the end of a read with a termination character (i.e. reads will terminate on timeout or when a specific number of bytes is read from the port).
-* ``Msg Config.termChar`` = 13
-* ``Msg Config.EnTermChar`` = TRUE
+* ``Msg Config.termChar`` - Hexadecimal value indicating what the termination character for communication is. 10 will be a new line character and 13 will be a carriage return.
+* ``Msg Config.EnTermChar`` - Boolean determining whether a termination character is used or not.
+
+## Device Specific Configuration
+### Alicat
