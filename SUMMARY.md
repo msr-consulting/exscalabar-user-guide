@@ -10,5 +10,5 @@
    * Shutdown
    * Handling HTTP Request
    * [Configuration](server_configuration.md)
-   * Files
+   * [Files](files.md)
 
