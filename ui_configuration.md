@@ -2,6 +2,11 @@
 
 The user interface uses a configuration file to determine how certain aspects are displayed.  The file is written in javasctript object notation (JSON).  The file is called ``ui.json`` and resides in the main client directory (i.e. same place ``index.html``).  
 
+This configuration file is used to primarily define how plots are rendered, but contains two additional entries:
+
+* ``name`` - this is a string that defines system name (in this case this is EXSCALABAR).
+* ``version`` - this defines the current version of the user interface.  This value should only be adjust in conjunction with the ``package.json`` file.  The ``gulp.js`` file 
+
 ## Configuring How Plots are Displayed
 The configuration file may determine how individual plots are rendered.  At the time of writing this documentation, the configuration file contained the following keys for configuration plots:
 
