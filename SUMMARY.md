@@ -11,5 +11,5 @@
    * Handling HTTP Request
    * [Configuration](server_configuration.md)
    * [Files](files.md)
-       * [The Main Data FIle](the_main_data_file.md)
+       * [The Main Data File](the_main_data_file.md)
 
