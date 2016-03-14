@@ -47,3 +47,6 @@ As an example of this in action, let us say we have two devices with the followi
   }
 ```
 In this case, we will plot three lines, all red with a stroke width of 2.  The first line is solid, the second is dashed and the third is dotted.
+
+## Additional Plotting Inputs
+In addition to the values settable by for all plots as defined above, the user may also configure the names of the CRD and PAS cell plots.  In each of these objects, there is a field called ``names``.  This field represents an array of strings that will be visible to the right of the plot.  These represent the names of the cells and the user may use this field to distinguish or provide specificity to the visual representation of the data.
