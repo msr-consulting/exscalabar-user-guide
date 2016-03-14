@@ -5,6 +5,7 @@
    * [Configuration](ui_configuration.md)
    * [Developing Operational Checklists](developing_operational_checklists.md)
    * [System Messages](system_messages.md)
+   * Interacting with Plots
 * [Server](server.md)
    * Launch
    * Shutdown
