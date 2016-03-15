@@ -8,6 +8,7 @@
    * [Interacting with Plots](interacting_with_plots.md)
    * [Development](ui_development.md)
        * [The Build System](the_build_system.md)
+   * The Navigation Bar
 * [Server](server.md)
    * Launch
    * Shutdown
