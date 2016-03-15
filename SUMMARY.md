@@ -6,7 +6,7 @@
    * [Developing Operational Checklists](developing_operational_checklists.md)
    * [System Messages](system_messages.md)
    * [Interacting with Plots](interacting_with_plots.md)
-   * UI Development
+   * [UI Development](ui_development.md)
 * [Server](server.md)
    * Launch
    * Shutdown
