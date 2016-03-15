@@ -7,6 +7,7 @@
    * [System Messages](system_messages.md)
    * [Interacting with Plots](interacting_with_plots.md)
    * [Development](ui_development.md)
+       * The Build System
 * [Server](server.md)
    * Launch
    * Shutdown
