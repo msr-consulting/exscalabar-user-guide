@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+   * Using Github
 * [The User Interface](the_user_interface.md)
    * [Configuration](ui_configuration.md)
    * [Developing Operational Checklists](developing_operational_checklists.md)
