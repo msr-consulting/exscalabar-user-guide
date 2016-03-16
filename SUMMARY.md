@@ -19,4 +19,5 @@
 * [General Tips and Tricks](general_tips_and_tricks.md)
 * Using Github
 * [Hardware](hardware.md)
+   * Signals
 
