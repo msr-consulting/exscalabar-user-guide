@@ -18,4 +18,5 @@
        * [The Main Data File](the_main_data_file.md)
 * [General Tips and Tricks](general_tips_and_tricks.md)
 * Using Github
+* Hardware
 
