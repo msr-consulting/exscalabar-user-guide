@@ -20,4 +20,5 @@
 * Using Github
 * [Hardware](hardware.md)
    * Signals
+   * MAX Tasks
 
