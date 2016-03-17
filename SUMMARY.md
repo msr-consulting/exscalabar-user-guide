@@ -21,5 +21,5 @@
 * [Hardware](hardware.md)
    * [Signals](signals.md)
    * MAX Tasks
-   * Serial Devices
+   * [Serial Devices](serial_devices.md)
 
