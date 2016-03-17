@@ -4,6 +4,7 @@ An overview of the user interface is show below.  The user interface is a respon
 ![Overview](ui overview.png)
 
 ## Responsive Behavior
+A responsive user interface is one that will respond appropriately to changes in the window size.  The EXSCALABAR user interface will resize user interface element at certain "break points".  At each of these break points, the elements will resize to fit the window.  At the last break point, the navigation menu will condense to a single "hamburger" icon in the top, right-hand corner of the screen as seen below.
 
 ![Responsive menu](responsive menu.png)
 
