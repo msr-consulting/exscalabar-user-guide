@@ -8,3 +8,5 @@
 
 ![Setting up serial IO](io settings.png)
 
+![Serial communication](serial max io.png)
+
