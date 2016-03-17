@@ -7,5 +7,9 @@ An overview of the user interface is show below.  The user interface is a respon
 
 ![Responsive menu](responsive menu.png)
 
+
 ![Expanded responsive menu](expanded responsive menu.png)
+
+
+![Responsive controls](responsive controls.png)
 
