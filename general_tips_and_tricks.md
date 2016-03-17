@@ -10,6 +10,9 @@ The version control system used at the time or writing is git.  The repository i
 ## Setting Reentrancy for VIs
 The majority of the Actor Framework relies on VIs that are reentrant.  This means that the VIs run in their own memory space and the state of one has no impact on another instance.  This is a powerful tool for running tasks in parallel.  The key problem with reentrancy on a real-time system is that the reentrant aspect relies on the instance having a unique front panel for debugging access.  As there are no front panels in on a real-time system, this means that reentrant VIs are not directly accessible through traditional debugging techniques.
 
+To handle this, the developer may employ a variety of techniques, but ultimately they will want to be able to access the portion of code unique the operation of interest directly.  In order to do this, they will have to set the reentrancy of a VI of interest to **Non-reentrant execution** in the VI properties 
+window.  This window is accessed by either right clicking on the VI and selecting *Properties* or by opening the VI and selecting *File->Properties*.  The developer may set the reentrancy properties by selecting the *Execution* category.
+
 ![Setting the reentrancy](reentrancy.png)
 ## Clearing the Compiled Cache
 Occasionally, when debugging, the user may get an error on deployment (i.e. when they try to run a program or deploy the web service) that states there is an error with a VI.  Upon opening the VI, the user will find that the VI is actually not broken.  At this point, it would be best to clear the compiled cache (where the actual object code is stored), close the project and open it again.  This *should* resolve these problems.
