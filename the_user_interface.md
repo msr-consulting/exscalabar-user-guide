@@ -3,3 +3,6 @@ An overview of the user interface is show below.  The user interface is a respon
 
 ![Overview](ui overview.png)
 
+## Responsive Behavior
+
+
