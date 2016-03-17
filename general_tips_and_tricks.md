@@ -15,7 +15,7 @@ window.  This window is accessed by either right clicking on the VI and selectin
 
 ![Setting the reentrancy](reentrancy.png)
 
-
+It is important to note that by setting the reentrant properties to **Non-reentrant execution**, only one instance of the VI may be accessed at a time.  This means that VIs that run continuously will break the intended execution sequence.  If the developer sets VIs such as ``Actor Core`` to non-reentrant, than the system will not function properly as all other instances of the ``Actor Core`` will wait for the completion of the execution of the first ``Actor Core`` to complete (in this system this is ``Controller::Actor Core``.
 
 ## Clearing the Compiled Cache
 Occasionally, when debugging, the user may get an error on deployment (i.e. when they try to run a program or deploy the web service) that states there is an error with a VI.  Upon opening the VI, the user will find that the VI is actually not broken.  At this point, it would be best to clear the compiled cache (where the actual object code is stored), close the project and open it again.  This *should* resolve these problems.
