@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [The User Interface](the_user_interface.md)
    * [Configuration](ui_configuration.md)
-   * [The Navigation Bar](the_navigation_bar.md)
+   * [Navigating the User Interface](the_navigation_bar.md)
    * [Developing Operational Checklists](developing_operational_checklists.md)
    * [System Messages](system_messages.md)
    * [Interacting with Plots](interacting_with_plots.md)
