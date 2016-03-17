@@ -7,4 +7,7 @@ Hardware in the system may be accessed via the NI Measurement and Automation Exp
 
 ![](max_exscalabar.png)
 
+## Chassis Network
+In order for the system to communicate with the 
+
 
