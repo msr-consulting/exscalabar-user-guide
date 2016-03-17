@@ -20,6 +20,6 @@
 * Using Github
 * [Hardware](hardware.md)
    * [Signals](signals.md)
-   * MAX Tasks
+   * [MAX Tasks](max_tasks.md)
    * [Serial Devices](serial_devices.md)
 
