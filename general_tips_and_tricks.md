@@ -7,6 +7,9 @@ The version control system used at the time or writing is git.  The repository i
 
 
 ## Debugging
+## Setting Reentrancy for VIs
+![Setting the reentrancy](reentrancy.png)
+## Clearing the Compiled Cache
 Occasionally, when debugging, the user may get an error on deployment (i.e. when they try to run a program or deploy the web service) that states there is an error with a VI.  Upon opening the VI, the user will find that the VI is actually not broken.  At this point, it would be best to clear the compiled cache (where the actual object code is stored), close the project and open it again.  This *should* resolve these problems.
 
 The user may clear the compiled cache one of two ways.  They may clear it through the LabVIEW environment or by deleteing the object data folder.  To clear the cache through the environment (see image below):
