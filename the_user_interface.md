@@ -8,6 +8,7 @@ A responsive user interface is one that will respond appropriately to changes in
 
 ![Responsive menu](responsive menu.png)
 
+To access the navigational menu items, simply click on the "hamburger" icon and the menu will drop down as seen below.
 
 ![Expanded responsive menu](expanded responsive menu.png)
 
