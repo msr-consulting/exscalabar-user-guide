@@ -33,3 +33,8 @@ This will remove the object file in the *LabVIEW Data->VIObjCache->[version]* fo
 
 Alternatively, the user may close the entire LabVIEW environment (i.e. shut it down) and simply delete the folder described above directly.  The folder is usually found under the users *Documents* folder in Windows.
 ![Clearing compiled cache](clear compiled cache.png)
+
+## Errors Building Executables
+Building executables is generally straightforward: there is a build-spec defined within the project called ``EXSCALABAR EXE`` and the developer simply has to right click on the spec and select *Build*.  Sometimes however, builds fail with cryptic messages.  The messages generally pertain to a class.  It is important to remember that a class is simply a namespaced set of VIs: this means that you may define multiple VIs with the same name in different namespaces.  
+
+Sometimes, however, this seems to cause problems with the builds and, despite the namespacing, causes naming collisions.  The errors associated with these collisions are often cryptic, but they will generally point to the offending class.  To correct these errors, more often than not the developer will want to rename VIs such that they are unique to the application.  For instance, a collision might occur with a VI that has an accessor called ``Read Data``.  The accessor name is likely to be used in another space and it would be more appropriate to name the VI something such as ``Read x Data`` where ``x`` is something specific to the data that is to be read.
