@@ -19,9 +19,9 @@
    * [Files](files.md)
        * [The Main Data File](the_main_data_file.md)
 * [General Tips and Tricks](general_tips_and_tricks.md)
-* Using Github
 * [Hardware](hardware.md)
    * [Signals](signals.md)
    * [MAX Tasks](max_tasks.md)
    * [Serial Devices](serial_devices.md)
+* Using Github
 
