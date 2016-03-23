@@ -29,4 +29,17 @@ The individual cards follow after the computer.  All cards are aliased such that
 
 ### Task Definitions
 
+#### ``PAS_HK``
 
+This task contains much of the PAS housekeeping associated with DAQmx.  The IO on this card are:
+
+* ``Photodiode_1`` 
+* ``Photodiode_2`` 
+* ``Photodiode_3`` 
+* ``Photodiode_4`` 
+* ``Photodiode_5`` 
+* ``lRMS_1``
+* ``lRMS_2``
+* ``lRMS_3``
+* ``lRMS_4``
+* ``lRMS_5``
