@@ -22,7 +22,7 @@ The individual cards follow after the computer.  All cards are aliased such that
 3. ``PXIe-6124``  aliased as ``CRD_Blue`` - this card is a high speed, 4 channel AI card intended to capture the blue ringdown signal.
 4. This slot is currently unoccupied.
 5. ``PXI-6132`` aliased as ``CRD_Red`` - this card is another high speed, 4 channel AI card intended to capture the red ringdown signal.  This card can capture 4 channels of AI simultaneously at up to 2.5 MHz per channel.
-6. ``PXI-6704`` aliased as ``TEC_AO`` - 
+6. ``PXI-6704`` aliased as ``TEC_AO`` - this task was originally intended to define analog outputs for TECs similar to those of the AOP.  These required a DC signal that could be adjusted aperiodically.  As the original TECs have been replaced with the Meerstetter TECs, the AO on these channels have been reappropriated for other tasks.
 7. ``PXI-6225`` aliased as ``PAS_HK`` - this card was intended to capture housekeeping data associated with the photoacoustic spectorometer.
 8. ``PXI-6225`` aliased as ``CRD_HK`` - this card is a multifunction DAQ card intended to handle the housekeeping operations associated with the CRD.
 9. ``PXI-7842R`` - this card is not aliased and is the multifunction, reconfigurable DAQ card that handles much of the PAS IO.  This card requires an FPGA bitfile to operate.
@@ -66,3 +66,25 @@ These signals represent the two thermistor temperatures that associated with eac
 * ``Tcell_42``
 * ``Tcell_51``
 * ``Tcell_52``
+
+
+#### ``CRDS Blue AI``
+
+This task defines all of the AI associated with the blue laser CRD.  This card samples 4 channels simultaneously at 4 MHz per channel.  The channels are defined within the task as:
+
+* ``Dry``
+* ``Dry_Filtered``
+* ``High_RH``
+* ``Med_RH``
+
+> **Code Connection**
+>
+> These channel are set to sample at 4 MHz in the MAX task configuration, but the clock for these tasks (defined below) is configured in the method ``eCRDS::Configure Blue``.  The clock will run a fixed number of time (2000) each time the lasers fire and the analog input in this task will sample on each rising edge of this clock.
+
+#### ``CRDS Blue Laser Output``
+
+This task has a single, counter output for firing the blue laser. 
+
+> **Code Connection**
+> 
+> This channel is stored in the object called ``eCRDS`` under the property called ``Blue Tasks.DO``.  The clock for this output is setup in the method ``eCRDS::Configure Blue``.  Currently, the clock is hard coded for a 1 kHz repetition rate with a 50% duty cycle and will sync to the first rising edge of the red laser.
