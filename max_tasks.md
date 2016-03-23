@@ -96,3 +96,14 @@ This task consists of several analog outputs that allow the user to adjust the g
 * ``Red`` - adjust the gain of the red laser
 * ``Blue0`` - adjust the gain of one of the blue lasers
 * ``Blue1`` - adjust the gain of the other blue laser
+
+#### ``PMT Gain``
+
+As the above task, but allows the user to adjust the gains of the PMTs on the CRD cells.  The channels are defined as follows:
+
+* ``Cell 0``
+* ``Cell ``
+* ``Cell 2``
+* ``Cell 3``
+* ``Cell 4``
+* 
