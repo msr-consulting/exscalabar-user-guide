@@ -88,3 +88,11 @@ This task has a single, counter output for firing the blue laser.
 > **Code Connection**
 > 
 > This channel is stored in the object called ``eCRDS`` under the property called ``Blue Tasks.DO``.  The clock for this output is setup in the method ``eCRDS::Configure Blue``.  Currently, the clock is hard coded for a 1 kHz repetition rate with a 50% duty cycle and will sync to the first rising edge of the red laser.
+
+#### ``CRD Laser Gain``
+
+This task consists of several analog outputs that allow the user to adjust the gain of the CRD lasers aperiodically.  This task is designed to run on demand.  The channels are defined as follow:
+
+* ``Red`` - adjust the gain of the red laser
+* ``Blue0`` - adjust the gain of one of the blue lasers
+* ``Blue1`` - adjust the gain of the other blue laser
