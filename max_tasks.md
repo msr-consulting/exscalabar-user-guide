@@ -111,3 +111,9 @@ As the above task, but allows the user to adjust the gains of the PMTs on the CR
 
 Task defines two digital outputs that allow the user to control the two valves associated with the sample/filter line.  In most cases, the two outputs should be operated together, but the user may wish to have individual control.  Because the position of the valve (i.e. closed or open) is defined by the orientation of the valve in the line, it can not be determined beforehand what the meaning of high and low are.  This has to be determined empirically.
 
+#### ``Acquire Ctr``
+
+#### ``General Input``
+
+
+
