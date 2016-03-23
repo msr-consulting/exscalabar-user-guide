@@ -33,13 +33,23 @@ The individual cards follow after the computer.  All cards are aliased such that
 
 This task contains much of the PAS housekeeping AI associated with DAQmx.  The DAQ rate for this card is 10 kHz and the DAQ is multiplexed.  Aside from the photodiode signals, these signals are averaged at the DAQ rate (1 Hz) to produce a single value for data presentation. The AI are defined as follows:
 
-* ``Photodiode_1`` - time domain signal for PAS cell 1 photodiode.
-* ``Photodiode_2``  - time domain signal for PAS cell 2 photodiode.
-* ``Photodiode_3``  - time domain signal for PAS cell 3 photodiode.
-* ``Photodiode_4``  - time domain signal for PAS cell 4 photodiode.
-* ``Photodiode_5``  - time domain signal for PAS cell 5 photodiode.
-* ``lRMS_1`` - laser RMS signal for PAS cell 1.  This signal is obtained from the box located atop the cell.  This value may also be calculated from the photodiode signal acquired above.
+##### Photodiode Time Domain Signals
+
+These are the signals acquired from the photodiode for each PAS cell.
+
+* ``Photodiode_1`` 
+* ``Photodiode_2``
+* ``Photodiode_3``
+* ``Photodiode_4``
+* ``Photodiode_5``
+
+##### Laser RMS
+
+These signal is obtained from the box located atop the cell.  This value may also be calculated from the corresponding photodiode signal acquired above.
+
+* ``lRMS_1``
 * ``lRMS_2``
-* ``lRMS_3``
 * ``lRMS_4``
 * ``lRMS_5``
+
+##### Cell Thermistor Temperatures
