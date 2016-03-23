@@ -31,9 +31,9 @@ The individual cards follow after the computer.  All cards are aliased such that
 
 #### ``PAS_HK``
 
-This task contains much of the PAS housekeeping associated with DAQmx.  The IO on this card are:
+This task contains much of the PAS housekeeping AI associated with DAQmx.  The DAQ rate for this card is 10 kHz and the DAQ is multiplexed.  The AI are defined as follows:
 
-* ``Photodiode_1`` 
+* ``Photodiode_1`` - time domain signal for PAS cell 1 photodiode.
 * ``Photodiode_2`` 
 * ``Photodiode_3`` 
 * ``Photodiode_4`` 
