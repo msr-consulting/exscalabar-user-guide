@@ -53,3 +53,16 @@ These signal is obtained from the box located atop the cell.  This value may als
 * ``lRMS_5``
 
 ##### Cell Thermistor Temperatures
+
+These signals represent the two thermistor temperatures that associated with each cell.  These thermistor temperatures are acquired via the box atop the cell.
+
+* ``Tcell_11``
+* ``Tcell_12``
+* ``Tcell_21``
+* ``Tcell_22``
+* ``Tcell_31``
+* ``Tcell_32``
+* ``Tcell_41``
+* ``Tcell_42``
+* ``Tcell_51``
+* ``Tcell_52``
