@@ -19,7 +19,7 @@
    * [Files](files.md)
        * [The Main Data File](the_main_data_file.md)
    * [The Photoacoustic Spectrometer](the_photoacoustic_spectrometer.md)
-   * Data
+   * [Data](data.md)
 * [General Tips and Tricks](general_tips_and_tricks.md)
 * [Hardware](hardware.md)
    * [Signals](signals.md)
