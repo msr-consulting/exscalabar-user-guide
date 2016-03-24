@@ -18,7 +18,7 @@
    * [Configuration](server_configuration.md)
    * [Files](files.md)
        * [The Main Data File](the_main_data_file.md)
-       * PAS Waveform Datga
+       * [PAS Waveform Datga](pas_waveform_data.md)
    * [The Photoacoustic Spectrometer](the_photoacoustic_spectrometer.md)
    * [Data](data.md)
 * [General Tips and Tricks](general_tips_and_tricks.md)
