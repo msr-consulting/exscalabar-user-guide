@@ -6,5 +6,6 @@ As with every ``Actor`` object, the ``Controller`` has a set of actions that it 
 ![](Launch Activity.jpg)
 
 
-If the launch is successful, the ``Actor::Actor Core`` process will kick off and continue until a stop message is sent.  A stop message may be sent by the user via a command to halt the system *or* if an error is thrown and not handled properly in the core itself.
+If the launch is successful, the ``Actor::Actor Core`` process will kick off and continue until a stop message is sent.  A stop message may be sent by the user via a command to halt the system *or* if an error is thrown and not handled properly in the core itself.  The ``Actor Core`` is where all messages will be handled by the ``Actor``.  Processes can (and usually are) run in parallel to the main ``Actor Core`` implementation.
 
+In the EXSCALABAR DAQ, the ``Controller`` will kick off the ``Controller::Actor Core`` operations by launching all nested actors.  
