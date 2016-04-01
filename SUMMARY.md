@@ -12,7 +12,7 @@
    * [The PAS Interface](the_pas_interface.md)
    * [Calibration](calibration.md)
 * [Server](server.md)
-   * Launch
+   * [Launch](launch.md)
    * Shutdown
    * Handling HTTP Request
    * [Configuration](server_configuration.md)
