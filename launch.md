@@ -8,4 +8,20 @@ As with every ``Actor`` object, the ``Controller`` has a set of actions that it 
 
 If the launch is successful, the ``Actor::Actor Core`` process will kick off and continue until a stop message is sent.  A stop message may be sent by the user via a command to halt the system *or* if an error is thrown and not handled properly in the core itself.  The ``Actor Core`` is where all messages will be handled by the ``Actor``.  Processes can (and usually are) run in parallel to the main ``Actor Core`` implementation.
 
-In the EXSCALABAR DAQ, the ``Controller`` will kick off the ``Controller::Actor Core`` operations by launching all nested actors.  
+In the EXSCALABAR DAQ, the ``Controller`` will kick off the ``Controller::Actor Core`` operations by launching all nested actors.  The launching process is wrapped in the ``Controller::Launch Nested`` method.  This sequence of events in this method is shown in the figure below.  This method excepts an input called ``ID`` which will be used to directly ID the nested actor in the case where the ``Controller`` needs to send a message
+
+![](Launch Nested.jpg)
+
+In this method, the ``Controller::Enqueuer MAP`` property will be queried to figure out if another ``Actor`` with this ``ID`` was already launched; if it was, it will write a message to the log indicating this to be the case.  
+
+> **``Enqueuer MAP``**
+>
+> This map is one of several that occurs throughout the code.  Each MAP object is simply a variant with properties attributed to it that are accessed through the ``Get Variant Attributes`` or ``Set Variant Attributes``.  The MAP allows wrapped access to key-value pairs of data (similar to Python's dictionary structure.
+> 
+> In the case of the ``Controller::Enqueuer MAP`` property, the variant will contain the following attributes:
+> 
+> * ``IDs`` - an array of strings that is a simple list of IDs of nested actors that have been registered with the MAP.
+> * ``NumActive`` - this is the number of nested actors that are represented in the MAP.
+> * a variant attribute with each corresponding to each ID in the ``IDs`` attribute that contains the ``Enqueuer`` for that nested actor.
+
+If it was not, then this method will 
