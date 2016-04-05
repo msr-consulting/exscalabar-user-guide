@@ -3,9 +3,20 @@ Data retrieved from the various entities are registered at startup as *emiters* 
 
 ## The ``Data`` Object
   
-All emitters broadcast an object with a common parent.  That parent is called ``Data``.  This object has the following properties:
+All emitters broadcast an object with a common parent.  That parent is called ``Data``.  The ``Data`` object may be found in the library ``Base Data Class`` which contains a lot of basic data object as well as the root ``Data`` object.  This object has the following properties:
 
-* ``Time`` - a timestamp representing when the data was collected.
+* ``measTime`` - a timestamp representing when the data was collected.
+* ``Data ID`` - unique string to represent the object.
+* ``write time`` - boolean indicating whether the time is to be sent with any data string.
+
+The ``Data`` object also contains some methods that are intended to be implemented by the child.  There are two serialization methods intended to ease sharing of data throughout the system:
+
+* ``Serialize to JSON`` - generates a JSON string that may be used to be broadcast to the client in response to http requests. 
+* ``Serialize to Text`` - generates a string array that may be used to generate a string for writing to an ASCII file.
+
+A companion abstract method to the method ``Serialize to Text`` is the method
+
+* ``Generate Unique Header``
 
 Structure of MAP.  
 
