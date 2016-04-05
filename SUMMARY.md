@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * A Word about Nomenclature
 * [The User Interface](the_user_interface.md)
    * [Configuration](ui_configuration.md)
    * [Navigating the User Interface](the_navigation_bar.md)
