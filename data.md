@@ -11,8 +11,8 @@ All emitters broadcast an object with a common parent.  That parent is called ``
 
 The ``Data`` object also contains some methods that are intended to be implemented by the child.  There are two serialization methods intended to ease sharing of data throughout the system:
 
-* ``Serialize to JSON`` - generates a JSON string that may be used to be broadcast to the client in response to http requests. 
-* ``Serialize to Text`` - generates a string array that may be used to generate a string for writing to an ASCII file.
+* ``Serialize - JSON`` - generates a JSON string that may be used to be broadcast to the client in response to http requests. 
+* ``Serialize - Text`` - generates a string array that may be used to generate a string for writing to an ASCII file.
 
 A companion abstract method to the method ``Serialize to Text`` is the method
 
