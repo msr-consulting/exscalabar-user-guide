@@ -18,6 +18,8 @@ A companion abstract method to the method ``Serialize to Text`` is the method
 
 * ``Generate Unique Header`` - called before data is written to file to generate a unique ASCII header.
 
+## ``Controller`` Data Storage
+
 Structure of MAP.  
 
 How it is populated
