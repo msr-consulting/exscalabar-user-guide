@@ -11,12 +11,12 @@ All emitters broadcast an object with a common parent.  That parent is called ``
 
 The ``Data`` object also contains some methods that are intended to be implemented by the child.  There are two serialization methods intended to ease sharing of data throughout the system:
 
-* ``Serialize - JSON`` - generates a JSON string that may be used to be broadcast to the client in response to http requests. 
+* ``Serialize - JSON`` - generates a JSON string that may be used to be broadcast to the client in response to http requests. Any changes or additions to any of the ``Data::Serialize-JSON`` methods should adhere to the [JSON Data Interchange Format](http://json.org/).
 * ``Serialize - Text`` - generates a string array that may be used to generate a string for writing to an ASCII file.
 
 A companion abstract method to the method ``Serialize to Text`` is the method
 
-* ``Generate Unique Header``
+* ``Generate Unique Header`` - called before data is written to file to generate a unique ASCII header.
 
 Structure of MAP.  
 
