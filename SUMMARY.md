@@ -13,7 +13,7 @@
    * [Calibration](calibration.md)
 * [Server](server.md)
    * [Launch](launch.md)
-       * Web Service
+       * [Web Service](web_service.md)
    * Shutdown
    * Handling HTTP Request
    * [Configuration](server_configuration.md)
