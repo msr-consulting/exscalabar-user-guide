@@ -12,7 +12,7 @@ All messages sent from the server to the client set the header value of ````Acce
 | **``General``** | ``UpdateFilter`` | ``/xService/General/UpdateFilter?State={value}`` | Sends message to controller - ``Change Filter State`` |
 |  | ``DenuderBypass`` | ``/xService/General/DenudedBypass?val={value}`` | Sends message to ``Controller`` - ``Change Denuder State MSG`` |
 | | ``Cabin`` | ``/xService/General/Cabin?val={value}`` | Sends message to ``Controller`` - ``Change Inlet MSG`` |
-| 0:5 | 1:5 | 2:5 | 3:5 |
+| ``PAS_CMD`` | ``UpdateVrange | ``/xService/PAS_CMD/UpdateVrange?Vrange={value}`` | Sends ``Set Vrange MSG`` to PAS |
 | 0:6 | 1:6 | 2:6 | 3:6 |
 | 0:7 | 1:7 | 2:7 | 3:7 |
 | 0:8 | 1:8 | 2:8 | 3:8 |
