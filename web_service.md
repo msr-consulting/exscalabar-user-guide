@@ -5,7 +5,7 @@
 | Resource | VI | URL | Response |
 | -- | -- | -- | -- |
 | **``General``** | ``UpdateFilter`` | ``/xService/General/UpdateFilter?State={value}`` | Sends message to controller - ``Change Filter State`` |
-|  | ``DenuderBypass`` | ``/xService/General/DenudedBypass?val={value}`` | Sends message to controller - ``Change Denuder State MSG`` |
+|  | ``DenuderBypass`` | ``/xService/General/DenudedBypass?val={value}`` | Sends message to ``Controller`` - ``Change Denuder State MSG`` |
 | | ``Cabin`` | ``/xService/General/Cabin?val={value}`` | Sends message to ``Controller`` - ``Change Inlet MSG`` |
 | 0:5 | 1:5 | 2:5 | 3:5 |
 | 0:6 | 1:6 | 2:6 | 3:6 |
