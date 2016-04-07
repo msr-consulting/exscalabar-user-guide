@@ -1,5 +1,7 @@
 # Web Service
 
+![](Change Filter Activity Diagram.jpg)
+
 | Resource | VI | URL | Response |
 | -- | -- | -- | -- |
 | **``General``** | ``UpdateFilter`` | ``/xService/General/UpdateFilter?State={value}`` | Sends message to controller - ``Change Filter State`` |
