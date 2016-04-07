@@ -1,5 +1,10 @@
 # Web Service
 
+## Sending Messages to the  Client
+
+All messages sent from the server to the client set the header value of ````Access-Control-Allow-Origin`` to ``*`` to allow cross origin resource sharing, or [CORS](http://www.html5rocks.com/en/tutorials/cors/).
+  
+
 ![](Change Filter Activity Diagram.jpg)
 
 | Resource | VI | URL | Response |
