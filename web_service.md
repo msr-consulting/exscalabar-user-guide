@@ -1,8 +1,8 @@
 # Web Service
-| VI | Resource | URL | Response |
+| Resource | VI | URL | Response |
 | -- | -- | -- | -- |
-| ``UpdateFilter`` | ``General`` | ``/xService/General/UpdateFilter?State={value}`` | Sends message to controller - ``Change Filter State`` |
-| 0:3 | 1:3 | 2:3 | 3:3 |
+| ``General`` | ``UpdateFilter`` | ``/xService/General/UpdateFilter?State={value}`` | Sends message to controller - ``Change Filter State`` |
+|  | ``DenuderBypass`` | ``/xService/General/DenudedBypass?val={value}`` | Sends message to controller - ``Change Denuder State MSG`` |
 | 0:4 | 1:4 | 2:4 | 3:4 |
 | 0:5 | 1:5 | 2:5 | 3:5 |
 | 0:6 | 1:6 | 2:6 | 3:6 |
