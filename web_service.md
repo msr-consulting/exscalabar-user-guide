@@ -6,7 +6,7 @@
 | -- | -- | -- | -- |
 | **``General``** | ``UpdateFilter`` | ``/xService/General/UpdateFilter?State={value}`` | Sends message to controller - ``Change Filter State`` |
 |  | ``DenuderBypass`` | ``/xService/General/DenudedBypass?val={value}`` | Sends message to controller - ``Change Denuder State MSG`` |
-| 0:4 | 1:4 | 2:4 | 3:4 |
+| | ``Cabin`` | ``/xService/General/Cabin?val={value}`` | Sends message to ``Controller`` - ``Change Inlet MSG`` |
 | 0:5 | 1:5 | 2:5 | 3:5 |
 | 0:6 | 1:6 | 2:6 | 3:6 |
 | 0:7 | 1:7 | 2:7 | 3:7 |
