@@ -11,7 +11,7 @@
        * [The Build System](the_build_system.md)
    * [The PAS Interface](the_pas_interface.md)
    * [Calibration](calibration.md)
-   * Use of AngularJS
+   * [Use of AngularJS](use_of_angularjs.md)
 * [Server](server.md)
    * [Launch](launch.md)
        * [Web Service](web_service.md)
