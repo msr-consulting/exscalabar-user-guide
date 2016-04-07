@@ -1,7 +1,8 @@
 # Web Service
+
 | Resource | VI | URL | Response |
 | -- | -- | -- | -- |
-| ``General`` | ``UpdateFilter`` | ``/xService/General/UpdateFilter?State={value}`` | Sends message to controller - ``Change Filter State`` |
+| **``General``** | ``UpdateFilter`` | ``/xService/General/UpdateFilter?State={value}`` | Sends message to controller - ``Change Filter State`` |
 |  | ``DenuderBypass`` | ``/xService/General/DenudedBypass?val={value}`` | Sends message to controller - ``Change Denuder State MSG`` |
 | 0:4 | 1:4 | 2:4 | 3:4 |
 | 0:5 | 1:5 | 2:5 | 3:5 |
@@ -17,3 +18,8 @@
 | 0:15 | 1:15 | 2:15 | 3:15 |
 | 0:16 | 1:16 | 2:16 | 3:16 |
 
+## Communication Errors
+
+There are two kinds of communication errors that can occur.  The first occurs because the web service is not available.  In this case, the client will throw an error (in the console) to the effect of ``ERR_CONNECTION_TIMED_OUT``.
+
+In the second case, the web service may be available, but the message queues are not good.  This may be due to a real problem with the ``Controller`` or simply because the ``Controller`` is not running.  In either scenario, attempts to access the queue will result in an error and the server will return the code 503.
