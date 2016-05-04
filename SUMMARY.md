@@ -25,6 +25,7 @@
        * [PAS Waveform Data](pas_waveform_data.md)
    * [The Photoacoustic Spectrometer](the_photoacoustic_spectrometer.md)
    * [Data](data.md)
+   * Running in the Development Environment
 * [General Tips and Tricks](general_tips_and_tricks.md)
 * [Hardware](hardware.md)
    * [Signals](signals.md)
