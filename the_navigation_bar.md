@@ -12,3 +12,4 @@ The navigation bar consists of two parts.  The left hand side provides access to
 
 ![bottom message indicator](message indicator bottom.png)
 
+## Shutting the System Down
