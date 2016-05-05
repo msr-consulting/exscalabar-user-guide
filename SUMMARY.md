@@ -13,7 +13,7 @@
    * [Calibration](calibration.md)
    * [Use of AngularJS](use_of_angularjs.md)
    * [Development Tools](development_tools.md)
-   * Errors
+   * [Errors](errors.md)
 * [Server](server.md)
    * [Launch](launch.md)
        * [Web Service](web_service.md)
