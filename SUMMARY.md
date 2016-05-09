@@ -14,6 +14,7 @@
    * [Use of AngularJS](use_of_angularjs.md)
    * [Development Tools](development_tools.md)
    * [Errors](errors.md)
+   * Shutting the System Down
 * [Server](server.md)
    * [Launch](launch.md)
        * [Web Service](web_service.md)
