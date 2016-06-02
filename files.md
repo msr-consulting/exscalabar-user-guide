@@ -9,6 +9,9 @@ The server will generate several different files depending on configuration sett
 The location of the main data file is found on an auxilary drive connected to the PXI chassis via a USB port.  Drives are labeled in order and start at ``u:``.
 Drives may be accessed via an FTP tool such as [FileZilla](https://filezilla-project.org) 
 
+## File Writing Functionality
+All files are written using the same actor object - ``File Actor``.  
+
 
 
 
