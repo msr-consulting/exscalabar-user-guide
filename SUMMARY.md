@@ -25,6 +25,7 @@
    * [Files](files.md)
        * [The Main Data File](the_main_data_file.md)
        * [PAS Waveform Data](pas_waveform_data.md)
+       * Writing Tau Data
    * [The Photoacoustic Spectrometer](the_photoacoustic_spectrometer.md)
    * [Data](data.md)
    * [Running in the Development Environment](running_in_the_development_environment.md)
