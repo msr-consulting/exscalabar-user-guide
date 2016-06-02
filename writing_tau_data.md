@@ -8,3 +8,5 @@ Child of ``Instr Exe Write to File``.  Class is called ``Exe Write Taus``.  Data
 
 INI file entry is ``CRD Taus``.  Default folder is ``exscalabar\CRD_Taus``
 
+ID for this object is ``crdtaus``.
+
