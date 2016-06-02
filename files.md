@@ -10,7 +10,7 @@ The location of the main data file is found on an auxilary drive connected to th
 Drives may be accessed via an FTP tool such as [FileZilla](https://filezilla-project.org) 
 
 ## File Writing Functionality
-All files are written using the same actor object - ``File Actor``.  
+All files are written using the same actor object - ``File Actor``.  When the file is open and being written to, the ``File Actor::Actor Core`` will be active for that particular instance of the ``File Actor``
 
 
 
