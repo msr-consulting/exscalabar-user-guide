@@ -25,3 +25,15 @@ In this method, the ``Controller::Enqueuer MAP`` property will be queried to fig
 > * a variant attribute with each corresponding to each ID in the ``IDs`` attribute that contains the ``Enqueuer`` for that nested actor.
 
 If it was not, then this method will attempt to launch the nested actor by calling the ``Actor::Launch Nested Actor``.  If it is successful, then this method will return with an ``Enqueuer`` for that actor.  That ``Enqueuer`` will be stored in the ``Controller::Enqueuer MAP`` under it's respective ID, the number of nested actors represented in the map will be incremented and the ID will be added to the ``IDs`` attribute in the map.  If the launch fails, then an error *should* be returned and the ``Controller::Enqueuer MAP`` is never touched.  The error message is logged in the message stream.
+
+Well defined ``IDs`` are as follows:
+
+* ``PAS``: 
+* ``CRDS``: 
+* ``AC Network``:
+* ``Main``:
+* ``Mirror``:
+
+Some well defined ``IDs`` that are not launched every time:
+
+* 
