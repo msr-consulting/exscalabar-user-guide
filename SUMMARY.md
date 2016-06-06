@@ -29,7 +29,7 @@
    * [The Photoacoustic Spectrometer](the_photoacoustic_spectrometer.md)
    * [Data](data.md)
    * [Running in the Development Environment](running_in_the_development_environment.md)
-   * Current Value Table
+   * [Current Value Table](current_value_table.md)
 * [General Tips and Tricks](general_tips_and_tricks.md)
 * [Hardware](hardware.md)
    * [Signals](signals.md)
