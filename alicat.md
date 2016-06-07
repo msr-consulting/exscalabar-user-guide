@@ -15,8 +15,10 @@ Carriage return to write and read data
 ``{Address}`` - retrieves data from device
 
 ![Retrieving Current Values](Alicat Get Current Values.png)
+``{Address}{Setpoint Value}``
 
 ![Setting the flow setpoint.](Alicat Set Flow Setpoint.png)
+
 ### Retrieving Model Information
 * ``{Address}??M*`` - retrieves all model information
 * ``{Address}??M{line no.}`` - retrieves modle information found on ``{line no.}``
