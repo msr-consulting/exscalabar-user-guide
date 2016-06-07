@@ -35,5 +35,6 @@
    * [Signals](signals.md)
    * [MAX Tasks](max_tasks.md)
    * [Serial Devices](serial_devices.md)
+       * Alicat
 * Using Github
 
