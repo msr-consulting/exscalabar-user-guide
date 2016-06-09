@@ -51,10 +51,11 @@ This is similar to the method ``Insert Data`` but it has one extra input.  This 
 |          | vrange   | |
 |          | voffset  |  |
 |          | ienabled | Array of booleans indicating speaker state for individual cells |
-| Filter   | filter_pos  |  |
-|          | period   |  |
+| Filter   | period   |  |
 |          | length   |   |
 |          | auto     |  |
+| general  | filter_pos | | 
+|          | denuder_pos | |
 
 
 
