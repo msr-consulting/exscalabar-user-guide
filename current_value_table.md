@@ -56,6 +56,7 @@ This is similar to the method ``Insert Data`` but it has one extra input.  This 
 |          | auto     |  |
 | general  | filter_pos | | 
 |          | denuder_pos | |
+|          | inlet  | |
 
 
 
