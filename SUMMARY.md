@@ -36,5 +36,6 @@
    * [MAX Tasks](max_tasks.md)
    * [Serial Devices](serial_devices.md)
        * [Alicat](alicat.md)
+   * FPGA IO
 * Using Github
 
