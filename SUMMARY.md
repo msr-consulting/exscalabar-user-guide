@@ -31,7 +31,7 @@
    * [Running in the Development Environment](running_in_the_development_environment.md)
    * [Current Value Table](current_value_table.md)
    * Software Patterns
-       * Command Pattern
+       * [Command Pattern](command_pattern.md)
 * [General Tips and Tricks](general_tips_and_tricks.md)
 * [Hardware](hardware.md)
    * [Signals](signals.md)
