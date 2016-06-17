@@ -24,3 +24,6 @@ This method can be called by the sender of the command to 1) send the command to
 4. Destroys the response queue via ``Release Queue``. 
 
 This method is **public**, static and reentrant.
+
+### The ``Command Reply`` method
+This method is used simply to send a reply to the sender of the command to indicate the success of the command.  If the ``response`` queue is no good, this method does nothing.  This method is **private**, static and reentrant.
