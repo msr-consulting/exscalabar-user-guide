@@ -30,6 +30,7 @@
    * [Data](data.md)
    * [Running in the Development Environment](running_in_the_development_environment.md)
    * [Current Value Table](current_value_table.md)
+   * Software Patterns
 * [General Tips and Tricks](general_tips_and_tricks.md)
 * [Hardware](hardware.md)
    * [Signals](signals.md)
