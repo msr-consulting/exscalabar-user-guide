@@ -59,6 +59,7 @@ This is similar to the method ``Insert Data`` but it has one extra input.  This 
 |          | denuder_pos | |
 |          | inlet  | |
 | crd      | klaser | Array that represents the laser gains for the red, blue 0 and blue 1 lasers respectively. |
+| crd      | enable | Boolean array containing the enable state of the lasers in this order - red, blue0, and blue1 |
 
 
 
