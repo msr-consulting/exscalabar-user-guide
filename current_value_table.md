@@ -50,6 +50,7 @@ This is similar to the method ``Insert Data`` but it has one extra input.  This 
 |          | enabled  | Current speaker state.  TRUE is ON. |
 |          | vrange   | |
 |          | voffset  |  |
+|
 |          | ienabled | Array of booleans indicating speaker state for individual cells |
 | Filter   | period   |  |
 |          | length   |   |
@@ -57,6 +58,7 @@ This is similar to the method ``Insert Data`` but it has one extra input.  This 
 | general  | filter_pos | | 
 |          | denuder_pos | |
 |          | inlet  | |
+| crd      | klaser | Array that represents the laser gains for the red, blue 0 and blue 1 lasers respectively. |
 
 
 
