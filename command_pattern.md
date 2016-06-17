@@ -22,3 +22,5 @@ This method can be called by the sender of the command to 1) send the command to
 2. Sends the command via the command queue.
 3. Waits for a response as to whether the command was correctly executed
 4. Destroys the response queue via ``Release Queue``. 
+
+This method is **public**, static and reentrant.
