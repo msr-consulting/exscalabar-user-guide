@@ -10,5 +10,10 @@ The implementation of the ``Command`` object can be located in the EXSCALABAR La
 The response property is a queue containing a boolean value.  This property is utilized in the ``Send Command and Wait for Response`` method to determine whether the command was successfully implemented.
 
 ### The ``Handle Command`` method
-This method is the primary method of the ``Command`` class.  This method *must* be overridden (a requirment)  
+This method is the primary method of the ``Command`` class.  This method *must* be overridden (a requirement).  This is the method in which the code to be executed will be contained.  This method is **protected** and called by the **public** function ``Execute``.
+
+### The ``Execute`` method
+This is the outward facing method that will be called by the invoker and is therefore **public**. In this method, the ``Handle Command`` method is called followed by the ``Command Reply`` method which will be used to indicate that the command was successful to the sender.  This method is static and reentrant.
+
+### The ``Send Command and Wait for Response`` method
 
