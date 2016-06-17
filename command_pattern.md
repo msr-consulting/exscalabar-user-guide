@@ -16,4 +16,9 @@ This method is the primary method of the ``Command`` class.  This method *must* 
 This is the outward facing method that will be called by the invoker and is therefore **public**. In this method, the ``Handle Command`` method is called followed by the ``Command Reply`` method which will be used to indicate that the command was successful to the sender.  This method is static and reentrant.
 
 ### The ``Send Command and Wait for Response`` method
+This method can be called by the sender of the command to 1) send the command to be handled and 2) wait for a response to determine whether the comand was successful.  This method:
 
+1. Sets up the response queue (calls ``Obtain Queue`` and stuffs the reference into the ``response`` property).
+2. Sends the command via the command queue.
+3. Waits for a response as to whether the command was correctly executed
+4. Destroys the response queue via ``Release Queue``. 
