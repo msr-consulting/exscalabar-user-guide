@@ -50,8 +50,9 @@ This is similar to the method ``Insert Data`` but it has one extra input.  This 
 |          | enabled  | Current speaker state.  TRUE is ON. |
 |          | vrange   | |
 |          | voffset  |  |
-|
 |          | ienabled | Array of booleans indicating speaker state for individual cells |
+| pas.las  | vrange   | Array of floats that define the laser modulation range |
+|          | voffset  | Array of floats that define the laser modulation offset |
 | Filter   | period   |  |
 |          | length   |   |
 |          | auto     |  |
