@@ -66,7 +66,32 @@ This is similar to the method ``Insert Data`` but it has one extra input.  This 
 ### The ``device`` Tag
 The ``device`` entry in the CVT is a top level entry used to group all devices attached to the instrument.  Under this top-level tag is an entry for every device that has been registered with the controller at startup.  Those device that fail to start should not be registered with the CVT.
 
-Each device under the ``device`` tag contains several guaranteed members as defined below.  In addition, if the device is identified as a ``controller``, 
+Each device under the ``device`` tag contains several guaranteed members as defined below.  In addition, if the device is identified as a ``controller``, the device will have an additional entry called ``setpoint`` which is a floating point number.  An example of a controller is given below.
+
+```json
+"device": {
+        "p1": {
+            "type": "ppt",
+            "label": "P<sub>1</sub>",
+            "sn": "00089546",
+            "controller": false,
+            "address": "p1",
+            "model": "PPT"
+        },
+        "AlicatA": {
+            "type": "alicat",
+            "label": "High RH",
+            "sn": "104488A",
+            "controller": true,
+            "address": "A",
+            "model": "104488A",
+            "setpoint": 0.000000
+        },
+        ...
+}
+```
+
+In the example above (taken from an actual CVT capture), there are two entries displayed in the ``device`` portion of the json file: an Alicat controller called *AlicatA* and a Honeywell PPT pressure transducer called *p1*.  Both contain all guaranteed members while the device ``AlicatA`` contains the additional ``setpoint`` entry.
 #### Guaranteed Members
 
 
