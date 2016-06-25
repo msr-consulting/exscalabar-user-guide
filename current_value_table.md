@@ -63,5 +63,22 @@ This is similar to the method ``Insert Data`` but it has one extra input.  This 
 | crd      | enable | Boolean array containing the enable state of the lasers in this order - red, blue0, and blue1 |
 
 
+### The ``device`` Tag
+The ``device`` entry in the CVT is a top level entry used to group all devices attached to the instrument.  Under this top-level tag is an entry for every device that has been registered with the controller at startup.  Those device that fail to start should not be registered with the CVT.
 
+Each device under the ``device`` tag contains several guaranteed members as defined below.  In addition, if the device is identified as a ``controller``, 
+#### Guaranteed Members
+
+
+* ``type`` - defines the type of the device.  Used by the user interface to group arrays of devices.
+  * ``ppt`` - Honeywell pressure transducer
+  * ``mTEC`` - Meerstetter thermoelectric cooler
+  * ``TEC`` - TE Technology thermoelectric cooler
+  * ``alicat`` - Alicat flow device
+  * ``vaisala`` - Vaisala hygrometer
+* ``label`` - string that defines the identity of the device in plots and other user interface items
+* ``sn`` - serial number of the device.  Used strictly for device identification.
+* ``controller`` - boolean indicating truthiness of whether the device is a controller.
+* ``address`` - string address that defines how the server communicates with the device
+* ``model`` - defines the model of the product.  Used strictly for identification of the device.
 
