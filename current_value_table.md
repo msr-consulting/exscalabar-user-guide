@@ -66,7 +66,11 @@ This is similar to the method ``Insert Data`` but it has one extra input.  This 
 ### The ``device`` Tag
 The ``device`` entry in the CVT is a top level entry used to group all devices attached to the instrument.  Under this top-level tag is an entry for every device that has been registered with the controller at startup.  Those device that fail to start should not be registered with the CVT.
 
-Each device under the ``device`` tag contains several guaranteed members as defined below.  In addition, if the device is identified as a ``controller``, the device will have an additional entry called ``setpoint`` which is a floating point number.  An example of a controller is given below.
+Each device under the ``device`` tag contains several guaranteed members as defined below.  In addition, if the device is identified as a ``controller``, the device will have an additional entry called ``setpoint`` which is a floating point number.  
+
+#### Example
+
+An example of a controller is given below.
 
 ```json
 "device": {
