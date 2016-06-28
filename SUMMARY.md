@@ -35,6 +35,7 @@
 * [General Tips and Tricks](general_tips_and_tricks.md)
 * [Hardware](hardware.md)
    * [Signals](signals.md)
+       * LEDs
    * [MAX Tasks](max_tasks.md)
    * [Serial Devices](serial_devices.md)
        * [Alicat](alicat.md)
