@@ -53,6 +53,7 @@ This is similar to the method ``Insert Data`` but it has one extra input.  This 
 |          | ienabled | Array of booleans indicating speaker state for individual cells |
 | pas.las  | vrange   | Array of floats that define the laser modulation range |
 |          | voffset  | Array of floats that define the laser modulation offset |
+|          | enabled | Array of booleans representing laser enable signals.  The indices of the array are relative to the cell. |
 | Filter   | period   |  |
 |          | length   |   |
 |          | auto     |  |
