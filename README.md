@@ -11,3 +11,4 @@ This manual covers the
 ## A Word about Nomenclature
 
 ``Object::ObjectMethod``
+just testing github integrations
